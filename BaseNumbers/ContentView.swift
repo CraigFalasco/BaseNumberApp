@@ -68,11 +68,8 @@ struct ContentView: View {
                     .bold()
                     .font(.title2)
             }
-            
         }
         .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-        
     }
     
     func convertNumber(inNum: Int, inBase: Int) -> String {
