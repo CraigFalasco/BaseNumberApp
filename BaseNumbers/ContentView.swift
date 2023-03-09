@@ -62,8 +62,11 @@ struct ContentView: View {
                 }
             }
             Section(header: Text("RESULT")) {
-                Text("\(intNum) in base \(intBase): \(result)")
+                Text("\(intNum) in base \(intBase) is:")
                     .bold()
+                Text(result.uppercased())
+                    .bold()
+                    .font(.title2)
             }
             
         }
